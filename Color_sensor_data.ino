@@ -17,7 +17,7 @@ void loop() {
 
   color.getColors(r, g, b, c);
   oled.clear();
-  sprintf(buff, "red : %4d", r);
+  sprintf(buff, "c : %4d", c);
   oled.drawtext(0, buff);
   oled.updateDisplay();
 
